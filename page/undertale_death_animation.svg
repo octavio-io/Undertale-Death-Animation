@@ -1,0 +1,78 @@
+<svg viewBox="0 0 480 270" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" style="background-color: #000;">
+  <symbol id="heart-fragments" viewBox="-235 -180 480 270">
+    <defs>
+      <g id="heart-fragment">
+        <path d="m1,3 v-1 h1 v-1 h3 v1 h1 v1 h1 v1 h1 v1 h1 v3 h-1 v1 h-3 v-1 h-1 v-1 h-1 v-1 h-1 v-1 h-1 z" fill="rgb(68,2,4)"/>
+        <path d="m2,3 v-1 h3 v1 h1 v1 h1 v1 h1 v3 h-3 v-1 h-1 v-1 h-1 v-1 h-1 z" fill="rgb(148,2,28)"/>
+        <path d="m3,3 v-1 h1 v1 h1 v1 h1 v1 h1 v1 h1 v1 h-1 v1 h-1 v-1 h-1 v-1 h-1 v-1 h-1 v-1 h-1 v-1 z" fill="rgb(220,2,4)"/>
+      </g>
+    </defs>
+
+    <use href="#heart-fragment">
+      <animate id="third" attributeName="display" to="none" begin="0s;fourth.end" dur="1.5s"/>
+      <animateMotion id="fourth" path="m0,0 l-400,280" begin="third.end" dur="1.5s"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 5 6" to="810 5 6" begin="third.end" dur="1.5s"/>
+    </use>
+
+    <use href="#heart-fragment">
+      <animate id="third" attributeName="display" to="none" begin="0s;fourth.end" dur="1.5s"/>
+      <animateMotion id="fourth" path="m0,0 l-50,-90 q-70,-60 -70,0" begin="third.end" dur="1.5s"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 5 6" to="810 5 6" begin="third.end" dur="1.5s"/>
+    </use>
+
+    <use href="#heart-fragment">
+      <animate id="third" attributeName="display" to="none" begin="0s;fourth.end" dur="1.5s"/>
+      <animateMotion id="fourth" path="m0,0 l0,-70 q30,-60 50,-20" begin="third.end" dur="1.5s"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 5 6" to="810 5 6" begin="third.end" dur="1.5s"/>
+    </use>
+
+    <use href="#heart-fragment">
+      <animate id="third" attributeName="display" to="none" begin="0s;fourth.end" dur="1.5s"/>
+      <animateMotion id="fourth" path="m0,0 l20,-60 q80,-30 70,0" begin="third.end" dur="1.5s"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 5 6" to="810 5 6" begin="third.end" dur="1.5s"/>
+    </use>
+
+    <use href="#heart-fragment">
+      <animate id="third" attributeName="display" to="none" begin="0s;fourth.end" dur="1.5s"/>
+      <animateMotion id="fourth" path="m0,0 l100,-20 q80,-20 80,20" begin="third.end" dur="1.5s"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 5 6" to="810 5 6" begin="third.end" dur="1.5s"/>
+    </use>
+
+    <use href="#heart-fragment">
+      <animate id="third" attributeName="display" to="none" begin="0s;fourth.end" dur="1.5s"/>
+      <animateMotion id="fourth" path="m0,0 l110,-5 q100,-10 100,20" begin="third.end" dur="1.5s"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 5 6" to="810 5 6" begin="third.end" dur="1.5s"/>
+    </use>
+  </symbol>
+  
+  <symbol id="heart" viewBox="-233 -180 480 270">
+    <g id="heart-left">
+      <path d="m3,3 v-1 h1 v-1 h3 v1 h1 v1 h1 v2 h-1 v2 h-1 v2 h1 v2 h-1 v-1 h-1 v-1 h-1 v-1 h-1 v-1 h-1 z" fill="rgb(68,2,4)"/>
+      <path d="m4,2 h3 v1 h2 v2 h-1 v2 h-1 v2 h1 v1 h-1 v-1 h-1 v-1 h-1 v-1 h-1 z" fill="rgb(148,2,28)"/>
+      <path d="m4,3 h1 v-1 h1 v1 h1 v1 h2 v1 h-1 v2 h-1 v1 h-1 v-1 h-1 v-1 h-1 z" fill="rgb(220,2,4)"/>
+
+      <animateMotion id="first" path="m-1,0" begin="0.5s;secund.end + 0.5s" dur="2.5s"/>
+      <animate id="secund" attributeName="display" to="none" begin="first.begin + 1s" dur="1.5s"/>
+    </g>
+    
+    <g id="heart-cutted">
+      <path d="m8,2 h1 v1 h1 v2 h-1 v2 h-1 v2 h1 v2 h-1 v-2 h-1 v-2 h1 v-2 h1 v-2 h-1 z" fill="rgb(68,2,4)"/>
+      <path d="m9,3 h1 v2 h-1 v2 h-1 v2 h1 v1 h-1 v-1 h-1 v-2 h1 v-2 h1 z" fill="rgb(148,2,28)"/>
+      <path d="m9,4 h1 v1 h-1 v2 h-1 v2 h-1 v-2 h1 v-2 h1 z" fill="rgb(220,2,4)"/>
+
+      <animate attributeName="display" to="none" begin="first.begin" dur="2.5s"/>
+    </g>
+    
+      <g id="heart-right">
+        <path d="m9,2 h1 v-1 h3 v1 h1 v5 h-1 v1 h-1 v1 h-1 v1 h-1 v1 h-1 v-2 h-1 v-2 h1 v-2 h1 v-2 h-1 v-1" fill="rgb(68,2,4)"/>
+        <path d="m10,2 h3 v5 h-1 v1 h-1 v1 h-1 v1 h-1 v-1 h-1 v-2 h1 v-2 h1 v-2 z" fill="rgb(148,2,28)"/>
+        <path d="m10,3 h1 v-1 h1 v1 h1 v3 h-1 v1 h-1 v1 h-1 v1 h-2 v-2 h1 v-2 h1 z" fill="rgb(220,2,4)"/>
+      
+        <animateMotion path="m1,0" begin="0.5s;secund.end + 0.5s" dur="2.5s"/>
+        <animate attributeName="display" to="none" begin="first.begin + 1s" dur="1.5s"/>
+      </g>
+  </symbol>
+
+  <use href="#heart"/>
+  <use href="#heart-fragments"/>
+</svg>
